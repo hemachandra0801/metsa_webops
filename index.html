@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>METSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/metsalogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="testimonials.html">TESTIMONIALS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>IITM's Best Department</h1>
+    <p>This is METSA's website.<br>META OP!</p>
+    <a href="contact.html" class="hero-btn">Visit us to know more!</a>
+</div>
+</section>
+
+<!-----Course----->
+
+<section class="course">
+    <h1>Our Events</h1>
+    <p>If we rest, the world rusts!</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Industrial Visits</h3>
+            <p>There is no engineering without materials!</p>
+        </div>
+        <div class="course-col">
+            <h3>Fresher's Nights</h3>
+            <p>There is no engineering without materials!</p>
+        </div>
+        <div class="course-col">
+            <h3>Farewell</h3>
+            <p>There is no engineering without materials!</p>
+        </div>
+    </div>
+</section>
+
+<!----- Campus ----->
+
+<section class="campus">
+    <h1>Our Department</h1>
+    <p>Get to know us!</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/dept1.jpeg">
+            <div class="layer">
+                <h3>OLD DEPT</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/dept2.jpeg">
+            <div class="layer">
+                <h3>MME</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/researchpark.jpg">
+            <div class="layer">
+                <h3>RESEARCH PARK</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----- Facilities ----->
+
+<section class="facilities">
+    <h1>Our Facilites</h1>
+    <p>We are OP!!!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/classroom.jpg">
+            <h3>Modern classrooms</h3>
+            <p>Meta OP!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/lab.jpg">
+            <h3>State of the art Labs</h3>
+            <p>Meta OP!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/scenery.jpeg">
+            <h3>Great scenery and ambience</h3>
+            <p>Meta OP!</p>
+        </div>
+    </div>
+</section>
+
+<!----- Testimonials ----->
+
+<section class="testimonials">
+    <h1>What our Students say!</h1>
+    <p>We are OP!!!</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/hiran.jpeg">
+            <div>
+                <p>Meta is the best department of IITM</p>
+                <h3>Hiran</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/kalyan.jpeg">
+            <div>
+                <p>Meta is the best department of IITM</p>
+                <h3>Kalyan</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----- Call to Action----->
+
+<section class="cta">
+    <h1>Join us now</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!----- Footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Making the materials for future</p>
+    <div class="icons">
+        <a  href="facebook.com"><i class="fa fa-facebook"></i></a>
+        <a  href="twitter.com"><i class="fa fa-twitter"></i></a>
+        <a  href="instagram.com"><i class="fa fa-instagram"></i></a>
+        <a  href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Follow us on <a  href="youtube.com"><i class="fa fa-youtube"></i></a> <br>Made by Hemachandra</p>
+</section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
